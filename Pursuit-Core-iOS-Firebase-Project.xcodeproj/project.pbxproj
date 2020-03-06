@@ -14,9 +14,12 @@
 		BE2564742412B99300235225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2564732412B99300235225 /* Assets.xcassets */; };
 		BE2564772412B99300235225 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2564752412B99300235225 /* LaunchScreen.storyboard */; };
 		BE25647F2412C28D00235225 /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = BE25647E2412C28D00235225 /* GoogleService-Info (2).plist */; };
+		F31AB17FE056008D18C28EDD /* Pods_Pursuit_Core_iOS_Firebase_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E769262BEC8F0A67903E5627 /* Pods_Pursuit_Core_iOS_Firebase_Project.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02B3E053CC739CD58BC18583 /* Pods-Pursuit-Core-iOS-Firebase-Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pursuit-Core-iOS-Firebase-Project.debug.xcconfig"; path = "Target Support Files/Pods-Pursuit-Core-iOS-Firebase-Project/Pods-Pursuit-Core-iOS-Firebase-Project.debug.xcconfig"; sourceTree = "<group>"; };
+		B0F37966AACDFE2D28BDE061 /* Pods-Pursuit-Core-iOS-Firebase-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pursuit-Core-iOS-Firebase-Project.release.xcconfig"; path = "Target Support Files/Pods-Pursuit-Core-iOS-Firebase-Project/Pods-Pursuit-Core-iOS-Firebase-Project.release.xcconfig"; sourceTree = "<group>"; };
 		BE2564672412B98C00235225 /* Pursuit-Core-iOS-Firebase-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pursuit-Core-iOS-Firebase-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE25646A2412B98C00235225 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE25646C2412B98C00235225 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		BE2564762412B99300235225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE2564782412B99300235225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE25647E2412C28D00235225 /* GoogleService-Info (2).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (2).plist"; sourceTree = "<group>"; };
+		E769262BEC8F0A67903E5627 /* Pods_Pursuit_Core_iOS_Firebase_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pursuit_Core_iOS_Firebase_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F31AB17FE056008D18C28EDD /* Pods_Pursuit_Core_iOS_Firebase_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E8AA4104A255238439E45A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E769262BEC8F0A67903E5627 /* Pods_Pursuit_Core_iOS_Firebase_Project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE25645E2412B98C00235225 = {
 			isa = PBXGroup;
 			children = (
 				BE2564692412B98C00235225 /* Pursuit-Core-iOS-Firebase-Project */,
 				BE2564682412B98C00235225 /* Products */,
+				E45A6EC839214694B90138C3 /* Pods */,
+				9E8AA4104A255238439E45A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +85,16 @@
 			path = "Pursuit-Core-iOS-Firebase-Project";
 			sourceTree = "<group>";
 		};
+		E45A6EC839214694B90138C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02B3E053CC739CD58BC18583 /* Pods-Pursuit-Core-iOS-Firebase-Project.debug.xcconfig */,
+				B0F37966AACDFE2D28BDE061 /* Pods-Pursuit-Core-iOS-Firebase-Project.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE25647B2412B99300235225 /* Build configuration list for PBXNativeTarget "Pursuit-Core-iOS-Firebase-Project" */;
 			buildPhases = (
+				7A8686438BC842843B4870C8 /* [CP] Check Pods Manifest.lock */,
 				BE2564632412B98C00235225 /* Sources */,
 				BE2564642412B98C00235225 /* Frameworks */,
 				BE2564652412B98C00235225 /* Resources */,
+				2152FF0079AB6DDB0BC5048E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,6 +163,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2152FF0079AB6DDB0BC5048E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pursuit-Core-iOS-Firebase-Project/Pods-Pursuit-Core-iOS-Firebase-Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pursuit-Core-iOS-Firebase-Project/Pods-Pursuit-Core-iOS-Firebase-Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pursuit-Core-iOS-Firebase-Project/Pods-Pursuit-Core-iOS-Firebase-Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A8686438BC842843B4870C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pursuit-Core-iOS-Firebase-Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BE2564632412B98C00235225 /* Sources */ = {
@@ -286,6 +355,7 @@
 		};
 		BE25647C2412B99300235225 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02B3E053CC739CD58BC18583 /* Pods-Pursuit-Core-iOS-Firebase-Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +374,7 @@
 		};
 		BE25647D2412B99300235225 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0F37966AACDFE2D28BDE061 /* Pods-Pursuit-Core-iOS-Firebase-Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
