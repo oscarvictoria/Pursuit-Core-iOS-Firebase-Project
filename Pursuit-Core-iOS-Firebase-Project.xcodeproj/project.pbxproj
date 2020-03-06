@@ -13,6 +13,7 @@
 		BE2564722412B98C00235225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2564702412B98C00235225 /* Main.storyboard */; };
 		BE2564742412B99300235225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2564732412B99300235225 /* Assets.xcassets */; };
 		BE2564772412B99300235225 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2564752412B99300235225 /* LaunchScreen.storyboard */; };
+		BE25647F2412C28D00235225 /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = BE25647E2412C28D00235225 /* GoogleService-Info (2).plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BE2564732412B99300235225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE2564762412B99300235225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE2564782412B99300235225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE25647E2412C28D00235225 /* GoogleService-Info (2).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (2).plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				BE2564732412B99300235225 /* Assets.xcassets */,
 				BE2564752412B99300235225 /* LaunchScreen.storyboard */,
 				BE2564782412B99300235225 /* Info.plist */,
+				BE25647E2412C28D00235225 /* GoogleService-Info (2).plist */,
 			);
 			path = "Pursuit-Core-iOS-Firebase-Project";
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE25647F2412C28D00235225 /* GoogleService-Info (2).plist in Resources */,
 				BE2564772412B99300235225 /* LaunchScreen.storyboard in Resources */,
 				BE2564742412B99300235225 /* Assets.xcassets in Resources */,
 				BE2564722412B98C00235225 /* Main.storyboard in Resources */,
