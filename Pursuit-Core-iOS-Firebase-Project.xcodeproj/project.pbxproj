@@ -120,11 +120,11 @@
 		BE2564882416AB1C00235225 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				BE25646E2412B98C00235225 /* ViewController.swift */,
 				BE2564902416ADA600235225 /* TabBarController.swift */,
 				BE25649D2416D5AD00235225 /* LoginViewController.swift */,
-				BE2564A12416DE4300235225 /* ProfileViewController.swift */,
+				BE25646E2412B98C00235225 /* ViewController.swift */,
 				BE2564A32416DE6D00235225 /* UploadViewController.swift */,
+				BE2564A12416DE4300235225 /* ProfileViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";

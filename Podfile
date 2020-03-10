@@ -12,6 +12,7 @@ target 'Pursuit-Core-iOS-Firebase-Project' do
 pod 'Firebase/Auth'
 pod 'Firebase/Firestore'
 pod 'FirebaseFirestoreSwift'
+pod 'Firebase/Storage'
 pod 'Kingfisher'
 
 # add pods for any other desired Firebase products
