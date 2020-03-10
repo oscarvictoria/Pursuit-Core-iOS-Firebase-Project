@@ -25,6 +25,7 @@
 		BE2564A82416EC9800235225 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2564A72416EC9800235225 /* DatabaseService.swift */; };
 		BE2564AA2416ECB400235225 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2564A92416ECB400235225 /* StorageService.swift */; };
 		BEADAA66241737FC0084F93C /* UIIMage + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEADAA65241737FB0084F93C /* UIIMage + Extensions.swift */; };
+		BEADAA68241824AC0084F93C /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEADAA67241824AC0084F93C /* PhotoCell.swift */; };
 		F31AB17FE056008D18C28EDD /* Pods_Pursuit_Core_iOS_Firebase_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E769262BEC8F0A67903E5627 /* Pods_Pursuit_Core_iOS_Firebase_Project.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		BE2564A72416EC9800235225 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
 		BE2564A92416ECB400235225 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		BEADAA65241737FB0084F93C /* UIIMage + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIIMage + Extensions.swift"; sourceTree = "<group>"; };
+		BEADAA67241824AC0084F93C /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		E769262BEC8F0A67903E5627 /* Pods_Pursuit_Core_iOS_Firebase_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pursuit_Core_iOS_Firebase_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -134,6 +136,7 @@
 		BE25648A2416AB7100235225 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				BEADAA67241824AC0084F93C /* PhotoCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				BE2564992416C71A00235225 /* UIViewController + Navigation.swift in Sources */,
 				BE2564A22416DE4300235225 /* ProfileViewController.swift in Sources */,
 				BE25646D2412B98C00235225 /* SceneDelegate.swift in Sources */,
+				BEADAA68241824AC0084F93C /* PhotoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
