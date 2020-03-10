@@ -48,7 +48,7 @@
                                         </connections>
                                     </barButtonItem>
                                 </items>
-                                <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </toolbar>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter caption here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mZ5-ko-Lsk">
                                 <rect key="frame" x="0.0" y="88" width="414" height="50"/>
@@ -102,28 +102,35 @@
                                 <rect key="frame" x="60" y="85" width="294" height="228.5"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8xf-3i-Be5">
-                                <rect key="frame" x="20" y="334.5" width="374" height="34"/>
+                                <rect key="frame" x="20" y="364.5" width="374" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zYq-Xx-dUf">
-                                <rect key="frame" x="169.5" y="509.5" width="75" height="30"/>
-                                <state key="normal" title="Edit Profile"/>
-                                <connections>
-                                    <action selector="editProfileButton:" destination="pFS-iL-Sey" eventType="touchUpInside" id="S9F-kd-prD"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xkn-zU-s69">
-                                <rect key="frame" x="20" y="388.5" width="374" height="21"/>
+                                <rect key="frame" x="20" y="418.5" width="374" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Wj-0X-f3s">
-                                <rect key="frame" x="177" y="559.5" width="60" height="30"/>
+                                <rect key="frame" x="177" y="529.5" width="60" height="30"/>
                                 <state key="normal" title="Sign Out"/>
                                 <connections>
                                     <action selector="signoutButton:" destination="pFS-iL-Sey" eventType="touchUpInside" id="rPa-Bv-MYP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ke-8Z-FFf">
+                                <rect key="frame" x="158" y="479.5" width="98" height="30"/>
+                                <state key="normal" title="Update Profile"/>
+                                <connections>
+                                    <action selector="updateProfileButton:" destination="pFS-iL-Sey" eventType="touchUpInside" id="0v7-Ms-Wr7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zYq-Xx-dUf">
+                                <rect key="frame" x="169.5" y="314.5" width="75" height="30"/>
+                                <state key="normal" title="Edit Profile"/>
+                                <connections>
+                                    <action selector="editProfileButton:" destination="pFS-iL-Sey" eventType="touchUpInside" id="S9F-kd-prD"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -131,18 +138,20 @@
                         <constraints>
                             <constraint firstItem="ynW-ma-p10" firstAttribute="height" secondItem="Fme-8H-QH1" secondAttribute="height" multiplier="0.3" id="3Qx-eH-9Af"/>
                             <constraint firstItem="ynW-ma-p10" firstAttribute="leading" secondItem="Fme-8H-QH1" secondAttribute="leading" constant="60" id="5Dh-A9-032"/>
-                            <constraint firstItem="6Wj-0X-f3s" firstAttribute="top" secondItem="zYq-Xx-dUf" secondAttribute="bottom" constant="20" id="6EW-NF-9RP"/>
-                            <constraint firstItem="Fme-8H-QH1" firstAttribute="trailing" secondItem="Xkn-zU-s69" secondAttribute="trailing" constant="20" id="BbO-ea-Wta"/>
-                            <constraint firstItem="zYq-Xx-dUf" firstAttribute="top" secondItem="Xkn-zU-s69" secondAttribute="bottom" constant="100" id="Gol-HG-SgS"/>
-                            <constraint firstItem="Fme-8H-QH1" firstAttribute="trailing" secondItem="8xf-3i-Be5" secondAttribute="trailing" constant="20" id="IeS-GZ-tKV"/>
-                            <constraint firstItem="Xkn-zU-s69" firstAttribute="top" secondItem="8xf-3i-Be5" secondAttribute="bottom" constant="20" id="b88-sS-78b"/>
-                            <constraint firstItem="8xf-3i-Be5" firstAttribute="leading" secondItem="Fme-8H-QH1" secondAttribute="leading" constant="20" id="iFT-Gw-QSA"/>
-                            <constraint firstItem="8xf-3i-Be5" firstAttribute="top" secondItem="ynW-ma-p10" secondAttribute="bottom" constant="20" id="iJh-gY-9M4"/>
-                            <constraint firstItem="zYq-Xx-dUf" firstAttribute="centerX" secondItem="s0f-30-WVS" secondAttribute="centerX" id="lIp-20-HLH"/>
-                            <constraint firstItem="6Wj-0X-f3s" firstAttribute="centerX" secondItem="s0f-30-WVS" secondAttribute="centerX" id="wDH-KN-53P"/>
+                            <constraint firstItem="8xf-3i-Be5" firstAttribute="leading" secondItem="Fme-8H-QH1" secondAttribute="leading" constant="20" id="8fv-on-rJN"/>
+                            <constraint firstItem="zYq-Xx-dUf" firstAttribute="top" secondItem="ynW-ma-p10" secondAttribute="bottom" id="Bbs-F9-TzB"/>
+                            <constraint firstItem="zYq-Xx-dUf" firstAttribute="centerX" secondItem="s0f-30-WVS" secondAttribute="centerX" id="E0D-Cm-L3a"/>
+                            <constraint firstItem="Xkn-zU-s69" firstAttribute="top" secondItem="8xf-3i-Be5" secondAttribute="bottom" constant="20" id="HBL-7y-yS4"/>
+                            <constraint firstItem="8xf-3i-Be5" firstAttribute="top" secondItem="zYq-Xx-dUf" secondAttribute="bottom" constant="20" id="dRw-2u-8qI"/>
+                            <constraint firstItem="Fme-8H-QH1" firstAttribute="trailing" secondItem="8xf-3i-Be5" secondAttribute="trailing" constant="20" id="fxj-6r-pPO"/>
+                            <constraint firstItem="6Wj-0X-f3s" firstAttribute="top" secondItem="2ke-8Z-FFf" secondAttribute="bottom" constant="20" id="lG1-Ij-xtu"/>
+                            <constraint firstItem="Fme-8H-QH1" firstAttribute="trailing" secondItem="Xkn-zU-s69" secondAttribute="trailing" constant="20" id="my0-H1-za8"/>
+                            <constraint firstItem="Xkn-zU-s69" firstAttribute="leading" secondItem="Fme-8H-QH1" secondAttribute="leading" constant="20" id="oGd-nF-gyI"/>
+                            <constraint firstItem="6Wj-0X-f3s" firstAttribute="centerX" secondItem="s0f-30-WVS" secondAttribute="centerX" id="oIh-oN-JUh"/>
                             <constraint firstItem="ynW-ma-p10" firstAttribute="top" secondItem="Fme-8H-QH1" secondAttribute="top" constant="40" id="wa6-CD-Wll"/>
                             <constraint firstItem="Fme-8H-QH1" firstAttribute="trailing" secondItem="ynW-ma-p10" secondAttribute="trailing" constant="60" id="xAc-bA-iQz"/>
-                            <constraint firstItem="Xkn-zU-s69" firstAttribute="leading" secondItem="Fme-8H-QH1" secondAttribute="leading" constant="20" id="xl6-69-6Cv"/>
+                            <constraint firstItem="2ke-8Z-FFf" firstAttribute="centerX" secondItem="s0f-30-WVS" secondAttribute="centerX" id="yGQ-z2-jDB"/>
+                            <constraint firstItem="2ke-8Z-FFf" firstAttribute="top" secondItem="Xkn-zU-s69" secondAttribute="bottom" constant="40" id="yKC-eH-cXY"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Fme-8H-QH1"/>
                     </view>

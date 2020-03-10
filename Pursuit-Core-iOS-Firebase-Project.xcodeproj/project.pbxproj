@@ -24,6 +24,7 @@
 		BE2564A62416EC7B00235225 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2564A52416EC7B00235225 /* Photo.swift */; };
 		BE2564A82416EC9800235225 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2564A72416EC9800235225 /* DatabaseService.swift */; };
 		BE2564AA2416ECB400235225 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2564A92416ECB400235225 /* StorageService.swift */; };
+		BEADAA66241737FC0084F93C /* UIIMage + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEADAA65241737FB0084F93C /* UIIMage + Extensions.swift */; };
 		F31AB17FE056008D18C28EDD /* Pods_Pursuit_Core_iOS_Firebase_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E769262BEC8F0A67903E5627 /* Pods_Pursuit_Core_iOS_Firebase_Project.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		BE2564A52416EC7B00235225 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		BE2564A72416EC9800235225 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
 		BE2564A92416ECB400235225 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		BEADAA65241737FB0084F93C /* UIIMage + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIIMage + Extensions.swift"; sourceTree = "<group>"; };
 		E769262BEC8F0A67903E5627 /* Pods_Pursuit_Core_iOS_Firebase_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pursuit_Core_iOS_Firebase_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				BE2564982416C71A00235225 /* UIViewController + Navigation.swift */,
+				BEADAA65241737FB0084F93C /* UIIMage + Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEADAA66241737FC0084F93C /* UIIMage + Extensions.swift in Sources */,
 				BE25646F2412B98C00235225 /* ViewController.swift in Sources */,
 				BE2564AA2416ECB400235225 /* StorageService.swift in Sources */,
 				BE2564A82416EC9800235225 /* DatabaseService.swift in Sources */,
