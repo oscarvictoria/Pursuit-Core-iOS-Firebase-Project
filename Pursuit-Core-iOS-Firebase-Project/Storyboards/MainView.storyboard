@@ -178,7 +178,7 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="tK7-g6-v6B">
                                 <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Pgv-d8-1K8">
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Pgv-d8-1K8">
                                     <size key="itemSize" width="414" height="376"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -191,26 +191,6 @@
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="QAF-9H-z36">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="376"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="c34-Nw-cvu">
-                                                    <rect key="frame" x="0.0" y="1" width="414" height="261"/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXI-tT-UqS">
-                                                    <rect key="frame" x="0.0" y="355.5" width="414" height="20.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="dXI-tT-UqS" secondAttribute="trailing" id="DJU-XH-oJ4"/>
-                                                <constraint firstItem="dXI-tT-UqS" firstAttribute="leading" secondItem="QAF-9H-z36" secondAttribute="leading" id="GY9-Yw-jxj"/>
-                                                <constraint firstAttribute="trailing" secondItem="c34-Nw-cvu" secondAttribute="trailing" id="VGu-DC-hME"/>
-                                                <constraint firstItem="c34-Nw-cvu" firstAttribute="height" secondItem="QAF-9H-z36" secondAttribute="height" multiplier="0.7" id="Yo5-Di-MuD"/>
-                                                <constraint firstAttribute="bottom" secondItem="dXI-tT-UqS" secondAttribute="bottom" id="fLH-kK-b45"/>
-                                                <constraint firstItem="c34-Nw-cvu" firstAttribute="top" secondItem="QAF-9H-z36" secondAttribute="top" id="fiA-Wc-JCv"/>
-                                                <constraint firstItem="c34-Nw-cvu" firstAttribute="leading" secondItem="QAF-9H-z36" secondAttribute="leading" id="qD4-EY-0bH"/>
-                                            </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="414" height="376"/>
                                     </collectionViewCell>
